@@ -1,0 +1,33 @@
+/* Write your code here. */
+.Container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px 0 30px 0;
+}
+
+.image{
+    border-radius: 8px;
+}
+
+.heading{
+    color: #1e293b;
+    font-family: Roboto;
+    margin-top: 20px;
+}
+
+.description{
+    color: #64748b;
+    font-family: Roboto;
+}
+
+.image-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
